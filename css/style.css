@@ -1,0 +1,178 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courier New', courier, monospace;
+  font-size: 12px;
+}
+
+h1, h2, h3, .main-nav {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 16px;
+  display: inline;
+  line-height: 30px;
+  background-color: yellow;
+}
+
+h3 {
+  font-size: 14px;
+  display: inline;
+  line-height: 30px;
+  background-color: cyan;
+}
+
+p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  height: 100vh;
+  padding-top: 50px;
+  padding-left: 20px;
+  z-index: -1;
+  line-height: 3em;
+}
+
+.rotate {
+  display: block;
+  transform: rotate(-15deg);
+}
+
+.greater-than {
+  color: magenta;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 20vw;
+  width: 80vw;
+  height: 50px;
+  z-index: 1;
+  background-color: white;
+  font-size: 12px;
+  line-height: 50px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+nav li {
+  display: inline-block;
+  width: auto;
+  margin: 0 15px;
+}
+
+nav li span {
+  border-bottom: solid 3px white;
+}
+
+nav li span:hover {
+  border-bottom: solid 3px black;
+}
+
+.current-page {
+  background-color: yellow;
+}
+
+main {
+  position: relative;
+  top: 50px;
+  left: 20vw;
+  width: 80vw;
+  padding: 0 20px;
+  background-color: rgba(255,255,255,0.95);
+}
+
+.page-header {
+  padding-bottom: 10px;
+}
+
+.tag {
+  font-size: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.project {
+  width: 60%;
+  padding: 35px 0;
+  border-bottom: solid 1px black;
+}
+
+#first-project {
+  padding-top: 0;
+}
+
+.project img {
+  width: 100%;
+  border: solid 1px #DDD;
+  margin: 10px 0;
+}
+
+.project-title, .description, .technology {
+  padding-bottom: 8px;
+}
+
+.magenta, .magenta-link {
+  color: magenta;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.magenta-link:hover {
+  border-bottom: solid 3px magenta;
+}
+
+.resume {
+  width: 60%;
+  border: solid 1px #DDD;
+  margin: 10px 0;
+}
+
+.cv-download {
+  padding-top: 5px;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  border: solid 2px #DDD;
+  padding: 8px;
+  margin: 10px;
+  width: 250px;
+}
+
+.about-title {
+  padding: 5px 0;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.about {
+  width: 60%;
+  padding: 5px 0;
+}
