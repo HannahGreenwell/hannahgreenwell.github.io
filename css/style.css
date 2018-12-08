@@ -118,8 +118,8 @@ main {
 
 .project {
   width: 60%;
-  padding: 35px 0;
-  border-bottom: solid 1px black;
+  padding: 60px 0;
+  /* border-bottom: solid 1px black; */
 }
 
 #first-project {
@@ -128,7 +128,7 @@ main {
 
 .project img {
   width: 100%;
-  border: solid 1px #DDD;
+  border: solid 2px #DDD;
   margin: 10px 0;
 }
 
@@ -144,6 +144,11 @@ main {
 
 .magenta-link:hover {
   border-bottom: solid 3px magenta;
+}
+
+i {
+  padding-top: 15px;
+  color: magenta;
 }
 
 .resume {
@@ -175,4 +180,13 @@ main {
 .about {
   width: 60%;
   padding: 5px 0;
+}
+
+.contact-details li {
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
 }
