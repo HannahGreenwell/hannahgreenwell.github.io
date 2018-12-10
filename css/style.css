@@ -132,8 +132,12 @@ main {
   margin: 10px 0;
 }
 
+/* .project p {
+  padding-bottom:
+} */
+
 .project-title, .description, .technology {
-  padding-bottom: 8px;
+  padding-bottom: 15px;
 }
 
 .magenta, .magenta-link {
