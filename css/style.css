@@ -104,7 +104,7 @@ main {
   left: 20vw;
   width: 80vw;
   padding: 0 20px;
-  background-color: rgba(255,255,255,0.95);
+  background-color: rgba(255,255,255,1);
 }
 
 .page-header {
@@ -131,10 +131,6 @@ main {
   border: solid 1px #DDD;
   margin: 10px 0;
 }
-
-/* .project p {
-  padding-bottom:
-} */
 
 .project-title, .description, .technology {
   padding-bottom: 15px;
@@ -193,4 +189,33 @@ i {
 
 .contact-details a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 520px) {
+  header {
+    display: none;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0 5px;
+  }
+
+  main {
+    left: 0;
+    width: 100vw;
+    padding: 0 20px;
+  }
+
+  .project {
+    width: 100%;
+  }
 }
